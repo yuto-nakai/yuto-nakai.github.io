@@ -1,0 +1,474 @@
+@charset "utf-8";
+
+@media (max-width:768px) {
+  html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    width: 100%;
+    height: 100%;
+    background-image: url("NEW DENIMS2/white.jpg");
+  }
+
+
+/* ヘッダー---------------------------------------------------------------- */
+
+header{
+  width: 100%;
+  height: 15rem;
+  position: relative;
+}
+
+.header__title{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.header__title h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-family: 'DM Serif Text', serif;
+}
+
+.header__title h2{
+  font-size: 2.5rem;
+  font-family: 'DM Serif Text', serif;
+  color: rgb(61, 57, 57);
+}
+
+.header__menu{
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.header__menu--ul{
+  text-decoration: none;
+  display: flex;
+  font-size: 1rem;
+  font-family: 'DM Serif Text', serif;
+}
+
+.header__menu--li{
+  margin: 0 4rem;
+  list-style: none;
+}
+
+.header__menu--li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* セクション１----------------------------------------------------------------- */
+
+.section1{
+  height: 30rem;
+}
+
+.section1__img {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.section1__img img{
+  width: 35rem;
+}
+
+
+.main__title{
+  margin: 7rem 0 0 0 ;
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: 'DM Serif Text', serif;
+}
+
+/* セクション２------------------------------------------------------------------------------------ */
+
+.section2{
+  height: 68rem;
+}
+
+
+
+.main__img--ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__img--li img{
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.main__img--many-denims-high{
+  margin: 5rem 0;
+}
+
+.main__img--many-denims-low{
+  margin-bottom: 20rem;
+}
+
+.main__img--li{
+  text-align: center;
+}
+
+.main__img--li-name{
+  margin-bottom: 12rem;
+  background-color: white;
+  width: 10rem;
+  height: 3.5rem;
+  padding-top: .5rem;
+}
+
+.main__img--li-h3{
+  color: #BAB410;
+  font-family: 'DM Serif Text', serif;
+}
+
+.main__img--li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'DM Serif Text', serif;
+}
+
+/* セクション3〜8------------------------------------------------------------------------------------ */
+.section3{
+  height: 155rem;
+}
+
+.section-top__denim-name{
+  text-align: center;
+  margin:8rem auto 1rem;
+  background-color: white;
+  width: 15rem;
+  height: 4rem;
+  padding-top: .5rem;
+}
+
+
+.main__img--li-h3-number{
+  font-family: 'DM Serif Text', serif;
+}
+
+
+.m-lens-container {
+  display: flex;
+  position: relative;
+}
+.m-lens {
+  position: absolute;
+  top: 10px; 
+  left: 20px; 
+  z-index: 2;
+  background: #f57716;
+  border-radius: 50%;
+  opacity: 0.3;
+  height: 15rem;
+  width: 15rem;
+}
+
+.m-lens-container2 img{
+  display: none;
+}
+
+.m-lens {
+  display: none;
+}
+.m-lens-container:hover .m-lens {
+  display: block;
+}
+.m-lens-container img {
+  max-height: 45rem;
+  max-width: 35rem;
+}
+
+.slides{
+  margin-bottom: 35rem;
+}
+
+.slide {
+  display: table;
+  background: #fff; /* 解説用 */
+  text-align: center;
+  height: 0;
+  width: 0;
+}
+
+.images {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.slides-container {
+  overflow: hidden;
+}
+.zoom-area {
+  display: none;
+  position: absolute;
+  top: 45rem;
+  left: 26%;
+  border: 1px solid #ccc;
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+}
+
+
+.zoom-area.active {
+  display: block;
+}
+.zoom-area img {
+  margin-top: -30px; 
+  margin-left: -60px; 
+}
+
+
+
+
+
+
+
+
+
+.m-lens-container-0 {
+  display: flex;
+  position: relative;
+}
+.m-lens-0 {
+  position: absolute;
+  top: 10px; 
+  left: 20px; 
+  z-index: 2;
+  background: #f57716;
+  border-radius: 50%;
+  opacity: 0.3;
+  height: 15rem;
+  width: 15rem;
+}
+
+.m-lens-container2-0 img{
+  display: none;
+}
+
+.m-lens-0 {
+  display: none;
+}
+.m-lens-container-0:hover .m-lens-0 {
+  display: block;
+}
+.m-lens-container-0 img {
+  max-height: 45rem;
+  max-width: 35rem;
+}
+
+.slides-0{
+  margin-bottom: 10rem;
+}
+
+.slide-0 {
+  display: table;
+  background: #fff;
+  text-align: center;
+  height: 0;
+  width: 0;
+}
+
+.images-0 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.slides-container-0 {
+  overflow: hidden;
+}
+.zoom-area-0 {
+  display: none;
+  position: absolute;
+  top: 45rem;
+  left: 26%;
+  border: 1px solid #ccc;
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+}
+
+
+
+.zoom-area-0.active {
+  display: block;
+}
+.zoom-area-0 img {
+  margin-top: -30px; 
+  margin-left: -60px;
+
+}
+
+
+
+/* セクション９------------------------------------------------------------------ */
+
+.section9{
+  height: 240rem;
+ }
+ 
+ .fascinating__title{
+   text-align: center;
+   margin: 2rem 0 7rem;
+ }
+ 
+ .fascinating__title h1{
+   font-size: 3rem;
+   font-family: 'DM Serif Text', serif;
+   margin: 10rem 0 2rem
+ }
+ 
+ .fascinating__title h2{
+   font-size: 1.2rem;
+   font-family: 'DM Serif Text', serif;
+ }
+ 
+ .fascinating__title--h2{
+   margin-bottom: .2rem;
+ }
+ 
+ 
+ 
+ .fascinating__main-img{
+   margin: 0 5rem;
+   text-align: center;
+ }
+ 
+ .fascinating__main-img img{
+   width: 30rem;
+   margin-bottom: 15rem;
+
+ }
+ 
+ .fascinating__main--sentence-title{
+   text-align: center;
+   font-size: 3rem;
+ }
+ 
+ .fascinating__main--sentence-title h1{
+   font-size: 4rem;
+   font-family: 'DM Serif Text', serif;
+   margin-bottom: 1rem;
+ }
+ 
+ .fascinating__main--sentence-contents{
+   position: relative;
+ }
+ 
+ .fascinating__main--sentence-contents-1{
+   display: flex;
+   position: relative;
+ }
+ 
+ 
+ 
+ .fascinating__main--sentence-contents-1-img{  
+   position: absolute;
+   left: 15%;
+   top: 6rem;
+ }
+ 
+ .fascinating__main--sentence-contents-1-img img{
+   width: 30rem;
+ }
+ 
+ .fascinating__main--sentence-contents-h3{
+   font-size: 2rem;
+   color: black;
+   font-family: 'DM Serif Text', serif;
+   position: absolute;
+   left: 15%;
+   top: 38rem;
+   letter-spacing: .2rem;
+   line-height:4rem;
+   padding: 1rem;
+ }
+ 
+ 
+ 
+ .fascinating__main--sentence-contents-2-img{  
+   position: absolute;
+   left: 2%;
+   top: 90rem;
+ }
+ 
+ .fascinating__main--sentence-contents-2-img img{
+   width: 30rem;
+ }
+ 
+ .fascinating__main--sentence-contents-h3-2{
+   position: absolute;
+   left: 10%;
+   top: 130rem;
+   font-size: 2rem;
+   font-family: 'DM Serif Text', serif;
+   letter-spacing: .2rem;
+   line-height:4rem;
+   padding: 1rem;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* フッター------------------------------------------------------------ */
+
+
+footer{
+  width: 100%;
+  height: 10rem;
+  position: relative;
+}
+
+.footer__title{
+  font-size: .01rem;
+  font-family: 'DM Serif Text', serif;
+  position: absolute;
+  left: 45%;
+}
+
+.footer__title h3{
+  display: flex;
+  
+}
+
+.footer__menu--ul{
+  display: none;
+}
+
+.footer__menu--li{
+  display: none;
+}
+
+
+
+}
