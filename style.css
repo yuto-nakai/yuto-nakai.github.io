@@ -81,12 +81,49 @@ header{
 
 .section1__img {
   text-align: center;
+  position: relative;
 }
 
 .section1__img img{
   width: 60rem;
 }
 
+
+#app {
+  position: absolute;
+  left: 32%;
+  top: 10rem;
+  font-size: 5rem;
+  font-family: 'DM Serif Text', serif;
+  color: #BAB410;
+}
+
+#typewriter::after {
+  content: "|";
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+.section1__img--des{
+  position: absolute;
+  left: 15rem;
+  margin-top: 5rem;
+  font-family: 'DM Serif Text', serif;
+  font-size: 2rem;
+  text-align: left;
+}
 
 /* セクション２------------------------------------------------------------------------------------ */
 
@@ -116,6 +153,14 @@ header{
 
 .main__img--li{
   text-align: center;
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(5rem);
+}
+
+.main__img--li.show{
+  opacity: 1;
+  transform: none;
 }
 
 .main__img--li-name{
