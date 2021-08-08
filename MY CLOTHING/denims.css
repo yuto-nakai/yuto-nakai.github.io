@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url("NEW DENIMS2/white.jpg");
+}
+
+
+
+
+/* セクション３〜８----------------------------------- */
+.section3{
+  height: 110rem;
+}
+
+.section-top__denim-name{
+  text-align: center;
+  margin:5rem auto 5rem;
+  background-color: white;
+  width: 15rem;
+  height: 4rem;
+  padding-top: .5rem;
+}
+
+
+.main__img--h3{
+  color: #BAB410;
+  font-family: 'DM Serif Text', serif;
+}
+
+.main__img--h3-number{
+  font-family: 'DM Serif Text', serif;
+  color: black;
+}
+
+
+
+
+.m-lens-container {
+  display: flex;
+  position: relative;
+}
+.m-lens {
+  position: absolute;
+  top: 10px; 
+  left: 20px; 
+  z-index: 2;
+  background: #f57716;
+  border-radius: 50%;
+  opacity: 0.3;
+  height: 172px;
+  width: 172px;
+}
+
+.m-lens-container2 img{
+  display: none;
+}
+
+.m-lens {
+  display: none;
+}
+.m-lens-container:hover .m-lens {
+  display: block;
+}
+.m-lens-container img {
+  max-height: 45rem;
+  max-width: 35rem;
+}
+
+.slides{
+  margin-bottom: 10rem;
+}
+
+.slide {
+  display: table;
+  background: #fff; /* 解説用 */
+  text-align: center;
+  height: 0;
+  width: 0;
+}
+
+.images {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.slides-container {
+  overflow: hidden;
+}
+.zoom-area {
+  display: none;
+  position: absolute;
+  top: 20.5rem;
+  left: 65rem;
+  border: 1px solid #ccc;
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+}
+
+
+
+.zoom-area.active {
+  display: block;
+}
+.zoom-area img {
+  margin-top: -30px; 
+  margin-left: -60px; 
+}
+
+
+
+
+
+
+
+
+
+.m-lens-container-0 {
+  display: flex;
+  position: relative;
+}
+.m-lens-0 {
+  position: absolute;
+  top: 10px; 
+  left: 20px; 
+  z-index: 2;
+  background: #f57716;
+  border-radius: 50%;
+  opacity: 0.3;
+  height: 172px;
+  width: 172px;
+}
+
+.m-lens-container2-0 img{
+  display: none;
+}
+
+.m-lens-0 {
+  display: none;
+}
+.m-lens-container-0:hover .m-lens-0 {
+  display: block;
+}
+.m-lens-container-0 img {
+  max-height: 45rem;
+  max-width: 35rem;
+}
+
+.slides-0{
+  margin-bottom: 10rem;
+}
+
+.slide-0 {
+  display: table;
+  background: #fff;
+  text-align: center;
+  height: 0;
+  width: 0;
+}
+
+.images-0 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.slides-container-0 {
+  overflow: hidden;
+}
+.zoom-area-0 {
+  display: none;
+  position: absolute;
+  top: 20.5rem;
+  left: 65rem;
+  border: 1px solid #ccc;
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+}
+
+
+
+.zoom-area-0.active {
+  display: block;
+}
+.zoom-area-0 img {
+  margin-top: -30px; 
+  margin-left: -60px;
+
+}
