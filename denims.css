@@ -32,9 +32,17 @@ body{
 }
 
 
-.main__img--li-h3-number{
+.main__img--h3{
+  color: #BAB410;
   font-family: 'DM Serif Text', serif;
 }
+
+.main__img--h3-number{
+  font-family: 'DM Serif Text', serif;
+  color: black;
+}
+
+
 
 
 .m-lens-container {

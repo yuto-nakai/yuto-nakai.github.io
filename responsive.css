@@ -114,14 +114,25 @@ header{
   height: 68rem;
 }
 
+/* .main__img--li-name-res{
+  margin-bottom: 10rem;
+  background-color: white;
+  width: 15rem;
+  height: 4rem;
+  padding-top: .5rem;
+}
 
+.main__img--li-h3-res{
+  color: #BAB410;
+  font-family: 'DM Serif Text', serif;
+} */
 
 .main__img--ul{
   display: flex;
   justify-content: space-around;
 }
 
-.main__img--li img{
+.main__img--li-res img{
   width: 10rem;
   margin-bottom: 2rem;
 }
@@ -134,11 +145,11 @@ header{
   margin-bottom: 20rem;
 }
 
-.main__img--li{
+.main__img--li-res{
   text-align: center;
 }
 
-.main__img--li-name{
+.main__img--li-name-res{
   margin-bottom: 12rem;
   background-color: white;
   width: 10rem;
@@ -146,16 +157,30 @@ header{
   padding-top: .5rem;
 }
 
-.main__img--li-h3{
+.main__img--li-h3-res{
   color: #BAB410;
   font-family: 'DM Serif Text', serif;
 }
 
-.main__img--li a{
+.main__img--li-res a{
   text-decoration: none;
   color: black;
   font-family: 'DM Serif Text', serif;
 }
+
+.main__img--btn{
+  display: none;
+}
+
+li.main__img--li{
+  display: none;
+}
+
+.main__img--li-res{
+  display: flex;
+}
+
+
 
 /* セクション3〜8------------------------------------------------------------------------------------ */
 .section3{
